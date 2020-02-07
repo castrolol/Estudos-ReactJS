@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap');
+
+* {
+    font-family: 'Roboto Slab', serif, Helvetica;
+}
+
+body {
+    background-image: url(img/chapada-dos-guimaraes-mato-grosso-zarpo-magazine.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#root {
+    display: inline-block;
+    padding: 20px;
+    
+}
+
+label {
+    color: #000000;
+    font-size: 22px;
+}
+
+.textBox {
+    display: block;
+    width: 25vw;
+    margin: 10px 0 10px 0;
+}
+
+.submitButton {
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+}
