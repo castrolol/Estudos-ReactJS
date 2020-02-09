@@ -2,19 +2,26 @@ import React from 'react';
 import './LoginPage.css';
 
 export default function LoginPage() {
-
     return (
         <>
-        <h1>Hello World!</h1>
-        <form action="">
-            <label htmlFor="userBox">Username</label>
-            <input type="text" id="userBox" className="textBox" />
+        
+        <div className="flex-container">
+            <h1>Hello World</h1>
+        </div>
 
-            <label htmlFor="passwordBox">Password</label>
-            <input type="password" id="passwordBox" className="textBox" />
+        <div className="flex-container">
+            <form action="">
+                <label htmlFor="userInput">
+                    Username <input type="text" id="userInput"  name="username" />
+                </label>
 
-            <button className="submitButton">Enviar</button>
-        </form>
+                <label htmlFor="passInput">
+                    Password <input type="password" id="passInput"  name="password" />
+                </label>
+
+                <input type="submit" value="Login" />
+            </form>
+        </div>
         </>
     )
 }
