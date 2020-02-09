@@ -5,9 +5,31 @@ body {
     background-image: url(img/chapada-dos-guimaraes-mato-grosso-zarpo-magazine.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    align-items: center;
+    margin: 15px;
+}
+
+h1, label{
+    color: #FFF;
+}
+
+label {
+    font-size: 20px;
+}
+
+input {
+    border-radius: 4px;
+    margin: 20px 0 15px 0;
+    width: 100%;
 }
 
 .flex-container {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
